@@ -28,12 +28,12 @@ jobs:
         id: detect
         shell: bash
         run: |
-          if [ -d "dist/marcos-paulo-silva-contrate/browser" ]; then
-            DIR="dist/marcos-paulo-silva-contrate/browser/"
-          elif [ -d "dist/marcos-paulo-silva-contrate" ]; then
-            DIR="dist/marcos-paulo-silva-contrate/"
+          if [ -d "dist/v2/browser" ]; then
+            DIR="dist/v2/browser/"
+          elif [ -d "dist/v2" ]; then
+            DIR="dist/v2/"
           else
-            echo "❌ Pasta de build não encontrada em dist/marcos-paulo-silva-contrate nem dist/marcos-paulo-silva-contrate/browser"
+            echo "❌ Pasta de build não encontrada em dist/v2 nem dist/v2/browser"
             echo "Conteúdo de dist:"
             ls -la dist || true
             exit 1
