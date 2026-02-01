@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/v2",
+            "outputPath": "dist/marcos-paulo-silva-contrate",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
